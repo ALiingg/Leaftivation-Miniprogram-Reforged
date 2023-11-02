@@ -1,0 +1,1 @@
+"D:\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-3gendiwf7ddf3a59 --n quickstartFunctions --r --project "E:\Leaftivation" --report_first --report
