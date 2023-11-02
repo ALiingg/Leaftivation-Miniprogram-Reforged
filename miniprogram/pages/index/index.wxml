@@ -1,0 +1,13 @@
+<!--pages/index/index.wxml-->
+<view class="mainBody">
+<view class="intro">
+<text class="title">Points Ranking\n</text>
+
+<text class="introduction">Hi!This is leaftivation_dev</text>
+</view>
+<view class="rankonetothree">
+<image src="../../images/HomePageImage/rank2.svg" class="ranktwo"></image>
+<image src="../../images/HomePageImage/rank1.svg" class="rankone"></image>
+<image src="../../images/HomePageImage/rank3.svg" class="rankthree"></image>
+</view>
+</view>

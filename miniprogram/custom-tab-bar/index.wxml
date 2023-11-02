@@ -1,0 +1,20 @@
+<view class="mainBody">
+<view class="tab-bar">
+  <view class="tab-item" bindtap="switchTab" data-url="/pages/index/index">
+    <image class="tab-icon" src="../images/homePageIcon.svg"/>
+
+    <view style="font-size: 24rpx;">Home</view>
+  </view>
+  
+  <view class="tab-center" bindtap="switchTab" data-url="/pages/addLog/addLog">
+    <image class="center-icon" src="../images/addLog.svg"/>
+  </view>
+  
+  <view class="tab-item" bindtap="switchTab" data-url="/pages/award/award">
+    <image class="tab-icon" src="../images/awardPageIcon.svg"/>
+    <view style="font-size: 24rpx;">Award</view>
+  </view>
+  
+</view>
+    <image class="tabbarBg" src="../images/tabBarBG.svg"/>
+</view>

@@ -1,0 +1,46 @@
+/* pages/index/index.wxss */
+.backgroundIMG{
+  width: 100%;
+  height: 100%;
+}
+
+
+.rankonetothree{
+  display: flex;
+  margin-top: 54rpx;
+  margin-left: 30rpx;
+  margin-right: 28rpx;
+}
+.rankone{
+  height: 256rpx;
+}
+
+.ranktwo{
+  height: 236.4rpx;
+  margin-top: 19.6rpx;
+}
+.rankthree{
+  height: 236.4rpx;
+  margin-top: 19.6rpx;
+  
+}
+.title{
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 38rpx;
+}
+.intro{
+  text-align: center;
+  margin-top: 38rpx;
+}
+.introduction{
+  font-family: 'Poppins';
+  font-size: 22rpx;
+  color: #999999;
+}
+.rank2avatar{
+  height: 90.6rpx;
+  position: absolute;
+  left: 10;
+  top: 0;
+}
