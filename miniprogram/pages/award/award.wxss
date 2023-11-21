@@ -1,1 +1,20 @@
 /* pages/award/award.wxss */
+.titleAward{
+  margin: 0 auto;
+  margin-top: 32rpx;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 40rpx;
+}
+.searchBox{
+  border: 2px solid #ffffff;
+  border-radius: 40rpx;
+  width: 580rpx;
+  height: 76rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  background-color: #fbfbffb6;
+  padding-left: 74rpx;
+  font-family: Poppins;
+  font-size: 22rpx;
+}

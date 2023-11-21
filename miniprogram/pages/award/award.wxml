@@ -1,2 +1,2 @@
-<!--pages/award/award.wxml-->
-<text>pages/award/award.wxml</text>
+<text class="titleAward">Award</text>
+<input type="text" class="searchBox" placeholder="Search Award"/>

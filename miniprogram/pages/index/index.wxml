@@ -6,8 +6,23 @@
 <text class="introduction">Hi!This is leaftivation_dev</text>
 </view>
 <view class="rankonetothree">
-<image src="../../images/HomePageImage/rank2.svg" class="ranktwo"></image>
+<image src="../../images/HomePageImage/rank2.svg" class="ranktwo">123</image>
+<image src="{{rank[1].avatarUrl}}" class="rank2avatar"></image>
+<text class="rank2name">{{rank[1].username}}</text>
+<text class="rank2Point">{{rank[1].currentPoint}}</text>
 <image src="../../images/HomePageImage/rank1.svg" class="rankone"></image>
+<image src="{{rank[0].avatarUrl}}" class="rank1avatar"></image>
+
 <image src="../../images/HomePageImage/rank3.svg" class="rankthree"></image>
+<image src="{{rank[2].avatarUrl}}" class="rank3avatar"></image>
+
+</view>
+<view class="rankRest">
+<view class="rankCardBody" wx:for="{{rankL}}" wx:for-item="item">
+<text class="rankNum">{{item.rankNum}}</text>
+<image src="{{item.avatarUrl}}" class="avatart"></image>
+<text class="name">{{item.username}}</text>
+<text class="points">{{item.currentPoint}}</text>
+</view>
 </view>
 </view>

@@ -1,46 +1,127 @@
-/* pages/index/index.wxss */
-.backgroundIMG{
-  width: 100%;
-  height: 100%;
-}
+  /* pages/index/index.wxss */
+  .backgroundIMG{
+    width: 100%;
+    height: 100%;
+  }
 
 
-.rankonetothree{
-  display: flex;
-  margin-top: 54rpx;
-  margin-left: 30rpx;
-  margin-right: 28rpx;
-}
-.rankone{
-  height: 256rpx;
-}
+  .rankonetothree{
+    display: flex;
+    margin-top: 40rpx;
+    margin-left: 10rpx;
+    margin-right: 0rpx;
+  }
+  .rankone{
+    height: 276rpx;
+  }
 
-.ranktwo{
-  height: 236.4rpx;
-  margin-top: 19.6rpx;
-}
-.rankthree{
-  height: 236.4rpx;
-  margin-top: 19.6rpx;
-  
-}
-.title{
-  font-family: 'Poppins';
-  font-weight: bold;
-  font-size: 38rpx;
-}
-.intro{
-  text-align: center;
-  margin-top: 38rpx;
-}
-.introduction{
-  font-family: 'Poppins';
-  font-size: 22rpx;
-  color: #999999;
-}
-.rank2avatar{
-  height: 90.6rpx;
-  position: absolute;
-  left: 10;
-  top: 0;
-}
+  .ranktwo{
+    height: 236.4rpx;
+    margin-top: 40rpx;
+  }
+  .rankthree{
+    height: 236.4rpx;
+    margin-top: 40rpx;
+    
+  }
+  .title{
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 38rpx;
+  }
+  .intro{
+    text-align: center;
+    margin-top: 38rpx;
+  }
+  .introduction{
+    font-family: 'Poppins';
+    font-size: 22rpx;
+    color: #999999;
+  }
+  .rank2avatar{
+    height: 68rpx;
+    width: 68rpx;
+    position: absolute;
+    left: 17.6%;
+    top: 223rpx;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  .rank3avatar{
+    height: 68rpx;
+    width: 68rpx;
+    position: absolute;
+    left: 83.25%;
+    border-radius: 50%;
+
+    top: 223rpx;
+    transform: translateX(-50%);
+  }
+  .rank1avatar{
+    border-radius: 50%;
+
+    height: 86rpx;
+    width: 86rpx;
+    position: absolute;
+    left: 50.6%;
+    top: 182rpx;
+    transform: translateX(-50%);
+  }
+  .rankCardBody{
+    background-color: #f6f6fcb4;
+    height: 138rpx;
+    width: 666rpx;
+    border: #ffffff 2px solid;
+    margin-left: 40rpx;
+    margin-top: 24rpx;
+    border-radius: 40rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rankNum{
+    color: #888888;
+    font-family: Poppins;
+    font-size: 28rpx;
+    margin-left: 52rpx;
+    
+
+  }
+  .avatart{
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+    
+  }
+  .name{
+    font-family: Poppins;
+    font-size: 28rpx;
+ 
+    width: 200rpx;
+  }
+
+  .points{
+    width: 100rpx;
+  }
+  .rank2name{
+    position: absolute;
+    left:12.4%;
+    
+    font-size: auto;
+    color: #2F2D3D;
+    width: 200rpx;
+    height: 50rpx;
+    font-family: Poppins;
+    top: 350rpx;
+  }
+  .rank2Point{
+    position: absolute;
+    left:14%;
+    font-size: 30rpx;
+    color: #2F2D3D;
+    width: 200rpx;
+    height: 50rpx;
+    font-family: Poppins;
+    top: 400rpx;
+
+  }
