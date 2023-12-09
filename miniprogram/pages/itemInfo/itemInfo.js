@@ -1,4 +1,4 @@
-// pages/award/award.js
+// pages/itemInfo/itemInfo.js
 Page({
 
   /**
@@ -62,10 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-  goToInfo(){
-    wx.navigateTo({
-      url: '../../pages/itemInfo/itemInfo',
-    })
   }
 })

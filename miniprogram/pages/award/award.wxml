@@ -1,2 +1,18 @@
-<text class="titleAward">Award</text>
+<view class="mainBody">
+<view class="titleAward">Award</view>
+<!-- <image src="../../images/search.svg" class="searchSvg"></image> -->
 <input type="text" class="searchBox" placeholder="Search Award"/>
+<view class="itemContainer">
+<view class="itemCard" bind:tap="goToInfo">
+<image src="../../images/testImage.png" class="itemImage">
+</image>
+<view class="itemInfo">
+  <text class="itemName">Sports Watch</text>
+  <text class="itemPrice">\n20000</text>
+  <text class="priceUnit"> Points</text>
+
+</view>
+
+</view>
+</view>
+</view>

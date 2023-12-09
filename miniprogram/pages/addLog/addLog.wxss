@@ -1,1 +1,51 @@
 /* pages/addLog/addLog.wxss */
+.logTitle{
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 40rpx;
+  width: 82rpx;
+  height: 60rpx;
+  margin: 0 auto;
+
+}
+.mainBody{
+  margin-top: 114rpx;
+}
+.addLogButton{
+
+  background-color: #fbfbff91;
+  border: white 2px solid;
+  width: 654rpx;
+  height: 128rpx;
+  border-radius: 40rpx;
+  
+  margin: 0 auto;
+  margin-top: 74rpx;
+}
+.addLogSym{
+  width: 72rpx;
+  height: 72rpx;
+  left: 346rpx;
+  top: 280rpx;
+  position: fixed;
+
+}
+.recentLog{
+  margin-left: 44rpx;
+  font-family: Helvetica;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #2F2D3D;
+}
+.myLog{
+  float: right;
+  color: #2F2D3D;
+  font-size: 24rpx;
+  margin-right: 44rpx;
+  font-family: Helvetica;
+  margin-top: 5rpx;
+}
+.recentTitle{
+  margin-top: 60rpx;
+  
+}

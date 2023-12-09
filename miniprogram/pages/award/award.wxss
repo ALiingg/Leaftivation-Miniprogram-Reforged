@@ -1,10 +1,12 @@
 /* pages/award/award.wxss */
 .titleAward{
-  margin: 0 auto;
-  margin-top: 32rpx;
   font-family: Poppins;
   font-weight: bold;
   font-size: 40rpx;
+  width: 136rpx;
+  height: 60rpx;
+  margin: 0 auto;
+
 }
 .searchBox{
   border: 2px solid #ffffff;
@@ -17,4 +19,39 @@
   padding-left: 74rpx;
   font-family: Poppins;
   font-size: 22rpx;
+}
+.searchSvg{
+  width: 28rpx; /* 或者根据您的设计调整 */
+  position: absolute;
+  top: 14%; /* 向下移动50%的高度 */
+  left: 12%; /* 向右移动50%的宽度 */
+  transform: translate(-50%, -50%); /* 向上和向左各自移动50%的自身尺寸来居中图标 */
+}
+.itemCard{
+  width: 304rpx;
+  height: 408rpx;
+  border-radius: 40rpx;
+  margin-left: 44rpx;
+  margin-top: 40rpx;
+}
+.itemImage{
+  width: 304rpx;
+  height: 304rpx;
+}
+.itemName{
+  font-family: Helvetica;
+  font-size: 26rpx;
+}
+.itemPrice{
+  font-family: Poppins;
+  color: #FF4D4F;
+  font-size: 30rpx;
+}
+.priceUnit{
+  font-family: Poppins;
+  color: #FF4D4F;
+  font-size: 24rpx;
+}
+.mainBody{
+  margin-top: 114rpx;
 }

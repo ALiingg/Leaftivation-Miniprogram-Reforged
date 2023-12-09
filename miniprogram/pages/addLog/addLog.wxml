@@ -1,2 +1,12 @@
-<!--pages/addLog/addLog.wxml-->
-<text>pages/addLog/addLog.wxml</text>
+<view class="mainBody">
+<view class="logTitle">Log</view>
+<view class="addLogButton">
+<image src="../../images/addLogSym.svg" class="addLogSym"></image>
+</view>
+<view class="recent">
+<view class="recentTitle">
+<text class="recentLog">Recent Log</text>
+<text class="myLog">My Log</text>
+</view>
+</view>
+</view>

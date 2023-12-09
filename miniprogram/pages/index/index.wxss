@@ -4,7 +4,9 @@
     height: 100%;
   }
 
-
+.mainBody{
+  margin-top: 70rpx;
+}
   .rankonetothree{
     display: flex;
     margin-top: 40rpx;

@@ -6,10 +6,11 @@
     <view style="font-size: 24rpx;">Home</view>
   </view>
   
-  <view class="tab-center" bindtap="switchTab" data-url="/pages/addLog/addLog">
-    <image class="center-icon" src="../images/addLog.svg"/>
+  <view class="tab-center" bindtap="switchTab" data-url="/pages/addLog/addLog" wx:if="!{{isLog}}">
+    <image class="center-icon" src="{{imageUrl}}"/>
+
   </view>
-  
+
   <view class="tab-item" bindtap="switchTab" data-url="/pages/award/award">
     <image class="tab-icon" src="../images/awardPageIcon.svg"/>
     <view style="font-size: 24rpx;">Award</view>

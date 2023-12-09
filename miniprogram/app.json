@@ -2,14 +2,14 @@
   "pages": [
     "pages/index/index",
     "pages/award/award",
-    "pages/addLog/addLog"
+    "pages/addLog/addLog",
+    "pages/itemInfo/itemInfo"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "Leaftivation",
-    "navigationBarTextStyle": "black"
+    "navigationStyle": "custom"
+
   },
   "tabBar": {
     "custom": true,
@@ -18,11 +18,9 @@
       {
         "pagePath": "pages/index/index",
         "text": "Home"
-        
       },
       {
         "pagePath": "pages/addLog/addLog"
-    
       },
       {
         "pagePath": "pages/award/award",

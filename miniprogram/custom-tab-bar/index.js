@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    isLog: false,
+    imageUrl: "../images/addLog.svg"
   },
 
   /**
@@ -60,8 +61,27 @@ Page({
 
   },
   switchTab(e) {
-    const url = e.currentTarget.dataset.url;
-    wx.switchTab({ url });
+    if(this.data.isLog == false){
+      this.setData({
+        isLog: !this.data.isLog,
+      })
+
+      const url = e.currentTarget.dataset.url;
+      wx.switchTab({ url });
+    
+    }else{
+      this.setData({
+        isLog: !this.data.isLog,
+
+      })
+      wx.switchTab({
+        url: '/pages/index/index',
+
+      })
+    
+    }
+    
+   
   },
   centerAction() {
     // 这里可以实现中央按钮的特定功能，例如打开一个模态框等。
